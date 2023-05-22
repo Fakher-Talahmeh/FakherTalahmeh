@@ -140,10 +140,11 @@ h4 {
     bottom: -150px;
     height: 850px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-20%);
     transition: bottom 1s, left 1s, top 1s;
     background-color: none;
-    width: 620px;
+    width: 80%;
+    height: 150%;
 
 }
 
@@ -160,7 +161,7 @@ h4 {
 }
 
 .home .container-images:hover .pic {
-    left: 45%;
+    left: 46%;
 }
 
 .about .container-images {
