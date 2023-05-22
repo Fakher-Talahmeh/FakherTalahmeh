@@ -266,8 +266,9 @@ h5 {
 }
 
 .certification img {
-    margin: 0 230px;
     justify-self: center;
+    width: 75%;
+    margin:10%;
 
 }
 
@@ -375,8 +376,7 @@ footer p {
         margin: 50px
     }
 
-    .content{
-    }
+    
     .container-text {
         bottom: 0em;
     }
