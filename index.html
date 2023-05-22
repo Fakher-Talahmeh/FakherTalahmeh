@@ -1,0 +1,114 @@
+<!DOCTYPE htmL>
+    <html Lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Portfolio - Fakher Talahmeh</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <section class="home" id="home">
+            <nav>
+                <button id ="menu">
+                    <span></span><span></span><span></span><span></span>
+                </button><h2 id="title">Fakher<span>Talahmeh</span></h2>
+                <ul id = "action">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+                <a href="" class="btn">Instagram</a>
+                
+            </nav>
+            <div class="content">
+                <div class="containr-texts">
+                    <h4>
+                        Hello, My name is
+                    </h4>
+                    <h1>Fakher <span>Talahmeh</span></h1>
+                    <h3>I'm a <span>Programmer</span></h3>
+                    <div class="social"><a href="" target="_blank"><img src="facebook_icon-icons.com_59205.png"
+                                alt="" srcset=""></a><a href="" target="_blank"><img
+                                src="image/1491580635-yumminkysocialmedia26_83102.png" alt="" srcset=""></a><a href=""
+                            target="_blank"><img src="image/linkedin_icon-icons.com_65929.png" alt="" srcset=""></a>
+                    </div>
+
+                </div>
+                <div class="container-images"><img src="image/Hide and seek game-amico (1).png" alt="" class="shape">
+                    <img src="image/fakher.png" alt="" class="pic">
+                </div>
+
+            </div>
+
+        </section>
+        <section class="about">
+            <div class="container-images">
+                <img src="image/Programming-bro.png" alt="" srcset="">
+            </div>
+            <div class="conainer-text">
+                <h1>About <span>Me</span></h1>
+                <h5><span>Dev</span>oloper</h5>
+                <p class="text">I am a second-year student at Palestine Polytechnic University, majoring in Computer Science with a specialization in Data Science. I started pursuing this field in 2019.</p>
+            </div>
+
+        </section>
+        <section class="services">
+            <h1 class="text-center"><span>Our</span> Services</h1>
+            <div class="box">
+                <div class="card"><i class="fa-solid fa-code"></i></i>
+                    <h3 class="text-center"><span>Back-End</span> dev</h3>
+                    <p class="texts">I use Python and Django framework for this task due to the amazing capabilities Python offers in various domains.
+                    </p>
+                </div>
+                <div class="card"><i class="fa-brands fa-python"></i><h3 class="text-center"><span>Python</span> dev</h3><p class="texts">I can work on simple projects in Python, such as web scraping, to gather the required information from any desired website, and create a bot to automate tasks on websites.</p></div>
+                <div class="card"><i class="fa-solid fa-computer"></i><h3 class="text-center"><span>desktop</span> dev</h3><p class="texts">I use Java for developing desktop applications and connecting them to MySQL databases to enhance their efficiency and effectiveness. I am proficient in OOP and skilled in its implementation.</p></div>
+            </div>
+        </section>
+        <section class="certification">
+            <h1 class="text-center"><span>Me</span> Certification<h1>
+            <img src="image/cert.png" alt="">
+        </section>
+        <section class="services">
+            <h1 class="text-center"><span>My</span> Projects</h1>
+            <div class="box">
+                <div class="card"><img class="img-proj" src="image/coffee.png"/>
+                <br>
+                    <h3 class="text-center"><span>Coffee</span> Machine</h3>
+                    <a href="https://github.com/Fakher-Talahmeh/CoffeeMachine" >Show Project</a>
+                </div>
+                <div class="card"><img class="img-proj" src="image/alg.png"/>
+                <br>
+                    <h3 class="text-center"><span>Algorithm</span> Project</h3>
+                    <a href="https://github.com/Fakher-Talahmeh/AlgorithmProj" >Show Project</a></div>
+                </div>
+        </section>
+
+        <footer>
+            <h2>Fakher<span>Talahmeh</span></h2>
+            <p class="p-f">This project is built from html and css only</p>
+            <p class="pf">fakhertalaam@gmail.com</p>
+        </footer>
+        <script>
+        const menu = document.getElementById("menu");
+        const action = document.getElementById("action");
+        menu.addEventListener("click", () => {
+            hundleMenu();
+        });
+        function hundleMenu(){
+            menu.classList.toggle("id-active");
+            action.classList.toggle("is-active");
+        }
+        </script>
+    </body>
+
+    </html>
